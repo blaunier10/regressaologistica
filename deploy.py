@@ -7,7 +7,6 @@
 import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-import seaborn as sns 
 
 # Carregar o modelo treinado e os dados
 base = pd.read_excel('basedadosreg.xlsx')
